@@ -9,3 +9,5 @@ using namespace std;
 void Dilation(const Mat& image, Mat& result, int type = 0, int size = 3);
 void Erosion(const Mat& image, Mat& result, int type = 0, int size = 3);
 void Morphology(const Mat& image, Mat& result, int op, int type = 0, int size = 3);
+
+void RoadDetection(Mat& gray, Mat& edge, int thresValue);
